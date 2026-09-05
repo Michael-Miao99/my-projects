@@ -1,0 +1,39 @@
+# --- Claude Code 本地配置（含敏感信息，勿提交） ---
+.claude/settings.local.json
+.claude/settings.json
+.claude/settings.local.json.bak
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# --- 构建产物 ---
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# --- 环境与密钥 ---
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- 日志 ---
+*.log
+
+# --- 编辑器 / 系统 ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
