@@ -40,3 +40,6 @@ out/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# github.io Pages 发布用 worktree（不入库）
+.gh-pages-worktree/
