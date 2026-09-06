@@ -29,6 +29,9 @@ out/
 *.pem
 *.key
 
+# --- Visual Companion / brainstorm scratch ---
+.superpowers/
+
 # --- 日志 ---
 *.log
 
